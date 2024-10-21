@@ -1,9 +1,8 @@
-var NativeSettings = function() {
+const NativeSettingsShd = function() {};
+
+NativeSettingsShd.open = function(setting, onsuccess, onfail) {
+    const settings = (typeof setting === 'string' || setting instanceof String) ? [setting] : setting;
+    cordova.exec(onsuccess, onfail, "NativeSettingsShd", "open", settings);
 };
 
-NativeSettings.open = function(setting, onsucess, onfail) {
-	var settings = (typeof setting === 'string' || setting instanceof String) ? [setting] : setting;
-	cordova.exec(onsucess, onfail, "NativeSettings", "open", settings);
-};
-
-module.exports = NativeSettings;
+module.exports = NativeSettingsShd;

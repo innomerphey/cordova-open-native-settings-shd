@@ -1,9 +1,9 @@
 {
-  "name": "cordova-open-native-settings",
-  "version": "1.5.5",
+  "name": "cordova-open-native-settings-shd",
+  "version": "2.0.2",
   "description": "Native settings opener for Cordova",
   "cordova": {
-    "id": "cordova-open-native-settings",
+    "id": "cordova-open-native-settings-shd",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guyromb/Cordova-open-native-settings"
+    "url": "git+https://github.com/innomerphey/Cordova-open-native-settings-shd"
   },
   "keywords": [
     "native-settings",
@@ -21,12 +21,12 @@
   ],
   "engines": {
     "cordovaDependencies": {
-      "1.5.0": {
-        "cordova": ">4.0.0"
+      "2.0.0": {
+        "cordova-ios": ">=6.0.0"
       }
     }
   },
-  "author": "Guy Rombaut <admin@gsrweb.net>",
+  "author": "A.S.",
   "contributors": [
     {
       "name": "Guy Rombaut",
@@ -57,7 +57,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guyromb/Cordova-open-native-settings/issues"
+    "url": "https://github.com/innomerphey/Cordova-open-native-settings-shd/issues"
   },
-  "homepage": "https://github.com/guyromb/Cordova-open-native-settings#readme"
+  "homepage": "https://github.com/innomerphey/Cordova-open-native-settings-shd#readme"
 }

@@ -1,4 +1,8 @@
-# NativeSettings plugin for Cordova (6/7)
+# NativeSettings plugin 
+
+Not tested. Not working on iOS 18.
+
+Urls are taken from https://github.com/RaphaelWoude/capacitor-native-settings
 
 The plugin allows you to open OS settings on iOS 8/9/10 and Android, via cordova-based app. For example, it will allow you to open the keyboard settings, Wifi, bluetooth etc (full list below).
 
@@ -8,19 +12,19 @@ It will be saved to the config.xml file
 Ionic Framework:
 
 ```bash
-ionic cordova plugin (add|rm) cordova-open-native-settings
+ionic cordova plugin (add|rm) cordova-open-native-settings-shd
 ```
 
 Cordova:
 
 ```bash
-cordova plugin (add|rm) cordova-open-native-settings --save
+cordova plugin (add|rm) cordova-open-native-settings-shd --save
 ```
 
 or via npm (It will be saved to the package.json file)
 
 ```bash
-npm (install|uninstall) cordova-open-native-settings --save
+npm (install|uninstall) cordova-open-native-settings-shd --save
 ```
 
 ## Using the plugin (opens Location Settings in Android and Application Settings in iOS)
